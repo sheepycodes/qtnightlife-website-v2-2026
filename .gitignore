@@ -12,3 +12,7 @@ brand_assets/Screenshot*.png
 .vscode/
 .idea/
 *.swp
+
+# Claude Code local config and project instructions
+.claude/
+CLAUDE.md
