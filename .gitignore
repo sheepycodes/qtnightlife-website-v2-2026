@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Unreferenced working assets (kept locally, not pushed to GitHub)
+brand_assets/Event Flyers/
+brand_assets/Event Flyers 2/
+brand_assets/Event Flyers 3/
+brand_assets/*.pptx
+brand_assets/Screenshot*.png
+
+# Editors / scratch
+.vscode/
+.idea/
+*.swp
