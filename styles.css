@@ -186,10 +186,17 @@ img { display: block; max-width: 100%; }
   color: var(--muted);
   max-width: 100%;
 }
+.cities .city-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
 .cities .dot {
   width: 6px; height: 6px; border-radius: 50%;
   background: var(--pink);
   box-shadow: 0 0 12px var(--pink);
+  flex-shrink: 0;
 }
 .cities .dot.p { background: var(--purple); box-shadow: 0 0 12px var(--purple); }
 .cities .dot.t { background: var(--teal);   box-shadow: 0 0 12px var(--teal); }
